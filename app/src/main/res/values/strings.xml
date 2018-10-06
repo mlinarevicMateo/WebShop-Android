@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">ZavrsniRad</string>
+
+    <!-- API URLS -->
+    <string name="API_URL" translatable="false">http://192.168.2.11/BackendSpark-master/public/api/</string>
+    <string name="LOGIN_URL" translatable="false">auth/login</string>
+    <string name="REGISTER_URL" translatable="false">auth/signup</string>
+    <string name="ARTICLES_URL" translatable="false">articles</string>
+    <string name="ARTICLES_SEARCH_URL" translatable="false">searchArticles/</string>
+    <string name="ARTICLES_BY_CATEGORY_URL" translatable="false">articlesByCategory/</string>
+    <string name="IMAGES_URL" translatable="false">http://192.168.2.11/BackendSpark-master/public/storage/slike/</string>
+
+    <!-- SHARED PREFERENCES -->
+    <string name="USER_LOGGED_IN_SP" translatable="false">USER_LOGGED_IN</string>
+    <string name="USER_ACCESS_TOKEN" translatable="false">USER_ACCESS_TOKEN</string>
+    <string name="USER_ACCESS_TOKEN_TYPE" translatable="false">USER_ACCESS_TOKEN_TYPE</string>
+    <string name="USER_EMAIL" translatable="false">USER_EMAIL</string>
+    <string name="USER_NAME" translatable="false">USER_NAME</string>
+    <string name="USER_IMAGE" translatable="false">USER_IMAGE</string>
+    <string name="DEFAULT_VALUE_SP" translatable="false">Default value</string>
+
+    <!-- LOGIN SCREEN -->
+    <string name="loginLoginTextView" translatable="false">Login</string>
+    <string name="loginButton">Login</string>
+    <string name="loginPassword">password</string>
+    <string name="loginEmail">someone@mail.com</string>
+    <string name="loginRememberMe">Stay logged in?</string>
+    <string name="NoAccountYet">No account yet? Create one</string>
+
+    <!-- MAIN SCREEN -->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- GLOBAL -->
+    <string name="LogoContentDescription" translatable="false">Logo</string>
+
+    <!-- REGISTER SCREEN -->
+    <string name="registerLastName">Last name</string>
+    <string name="registerEmail">E-mail address</string>
+    <string name="registerPassword">Password</string>
+    <string name="registerAlreadyMember">Already a member? Login</string>
+    <string name="registerButton">Register</string>
+
+    <!-- PROGRESS DIALOG STRINGS-->
+    <string name="progressDialogSigningUp">Signing up...</string>
+    <string name="progressDialogLoggingIn">Logging in...</string>
+
+    <!-- ERROR STRINGS AND MESSAGES -->
+    <string name="emptyStringError">Please fill this field</string>
+    <string name="badCredentialsError">Bad credentials</string>
+    <string name="registerSuccessMessageFromApi">Successfully created user!</string>
+    <string name="signupSuccessToastMessage">Successfully signed up!</string>
+
+    <!-- DRAWER STRINGS -->
+    <string name="drawer_all_articles">All articles</string>
+    <string name="drawer_log_out">Log out</string>
+    <string name="drawer_laptops">Laptops</string>
+    <string name="drawer_computer_cases">Computer cases</string>
+    <string name="drawer_monitors">Monitors</string>
+    <string name="drawer_mouses">Mouses</string>
+    <string name="drawer_speakers_and_headphones">Speakers and headphones</string>
+    <string name="drawer_keyboards">Keyboards</string>
+    <string name="registerFirstName">First name</string>
+    <string name="drawer_profile">Profile</string>
+
+    <!-- CATEGORY IDS -->
+    <string name="laptops_id" translatable="false">4</string>
+    <string name="cases_id" translatable="false">5</string>
+    <string name="monitors_id" translatable="false">6</string>
+    <string name="mouses_id" translatable="false">2</string>
+    <string name="speakers_id" translatable="false">3</string>
+    <string name="keyboards_id" translatable="false">1</string>
+    <string name="title_activity_main2" translatable="false">MainActivity2</string>
+    <string name="single_article_imageview_contentdesc">single_article_imageview_contentdesc</string>
+    <string name="single_article_heading">Heading</string>
+    <string name="single_article_price">100 $</string>
+    <string name="single_article_category">Laptops</string>
+    <string name="single_article_add_to_cart">Add to cart</string>
+    <string name="single_article_product_description">Product description</string>
+    <string name="single_article_description">Some random description</string>
+    <string name="currency">KM</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search articles</string>
+    <string name="search_title_actionbar">Results for: </string>
+    <string name="title_activity_cart" translatable="false">CartActivity</string>
+    <string name="cart">Cart</string>
+    <string name="cart_item_heading_textview">Heading</string>
+    <string name="cart_item_textview_quantity" translatable="false">12</string>
+    <string name="add_to_cart">Add to cart?</string>
+    <string name="add_to_cart_message">Are you sure you want to add this product to cart?</string>
+    <string name="article_added">Article added</string>
+    <string name="article_already_added">Article already added</string>
+    <string name="cart_is_empty">Cart is empty!</string>
+    <string name="buy_articles">Buy articles?</string>
+    <string name="buy_articles_message">Are you sure you want to buy these articles?</string>
+    <string name="articles_buyed" translatable="false">CEKAM MATEJA SA PAYPALOM!</string>
+    <string name="clear_cart">Clear cart.</string>
+    <string name="clr_cart_message">Are you sure you want to clear the cart?</string>
+    <string name="cart_cleared">Cart cleared!</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_articles"
+            android:icon="@drawable/ic_grid_articles"
+            android:title="@string/drawer_all_articles" />
+
+        <item android:title="Categories">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_laptops"
+                        android:icon="@drawable/ic_laptop"
+                        android:title="@string/drawer_laptops" />
+                    <item
+                        android:id="@+id/nav_cases"
+                        android:icon="@drawable/ic_computer_case"
+                        android:title="@string/drawer_computer_cases" />
+                    <item
+                        android:id="@+id/nav_monitors"
+                        android:icon="@drawable/ic_computer_monitor"
+                        android:title="@string/drawer_monitors" />
+                    <item
+                        android:id="@+id/nav_mouses"
+                        android:icon="@drawable/ic_computer_mouse"
+                        android:title="@string/drawer_mouses" />
+                    <item
+                        android:id="@+id/nav_headphones"
+                        android:icon="@drawable/ic_headphones"
+                        android:title="@string/drawer_speakers_and_headphones" />
+                    <item
+                        android:id="@+id/nav_keyboard"
+                        android:icon="@drawable/ic_keyboards"
+                        android:title="@string/drawer_keyboards" />
+
+                </group>
+            </menu>
+        </item>
+        <item android:title="User Actions">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <!--<item-->
+                    <!--android:id="@+id/nav_user_profile"-->
+                    <!--android:icon="@drawable/ic_user_profile"-->
+                    <!--android:title="@string/drawer_profile" />-->
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/ic_logout"
+                        android:title="@string/drawer_log_out" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>
